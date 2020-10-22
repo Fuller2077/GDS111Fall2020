@@ -1,3 +1,25 @@
 h1{
     color: aquamarine
 }
+/*Psuedo Classes Example*/
+
+a:link{
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:visited{
+    color: green;
+    
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+}
