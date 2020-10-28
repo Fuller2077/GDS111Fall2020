@@ -1,0 +1,49 @@
+/**css goes here*/
+
+html,body{
+    height: 100;
+    margin: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#container{
+    width: 1000px;
+    padding: 10px;
+    background-color: rgb(13, 85, 219);
+
+}
+
+header{
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+canvas{
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+footer{
+    background-color: white;
+    margin-bottom: 10px;
+}
