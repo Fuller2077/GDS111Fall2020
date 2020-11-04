@@ -1,0 +1,63 @@
+/**css goes here*/
+
+html,body{
+    height: 100;
+    margin: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Monda', sans-serif;
+   
+
+}
+
+#container{
+    width: 1024px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+    
+
+}
+
+header{
+    background-image: url("Images/Header_background.jpg");
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid purple;
+    border-radius: 80px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: auto
+   
+
+}
+
+canvas{
+    background-color: white;
+    margin-bottom: 10px;
+    background-image: url("Images/Background.jpg");
+    border: solid purple;
+    border-radius: 40px;
+    
+
+}
+
+footer{
+    background-image: url("Images/Header_background.jpg");
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    border: solid purple;
+    border-radius: 80px;
+}
