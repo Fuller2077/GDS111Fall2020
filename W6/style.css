@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    justify-content:center;
+    font-family: 'Concert One', cursive;
+    background-color:aquamarine;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    color:black;
+}
+#container{
+    box-sizing:border-box;
+    width:1018px;
+    border:1px solid black;
+    padding:7px;
+}
+canvas{
+    border: 2px solid black;
+    box-sizing:border-box;
+}
+a:link, a:visited{
+    display:inline-block;
+    background-color:red;
+    padding:10px;
+    margin:20px;
+}
