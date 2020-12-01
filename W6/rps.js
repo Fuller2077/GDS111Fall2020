@@ -56,10 +56,7 @@ function play(pChoice)
             if(cChoice === 0)
             {
                 //display a tie
-                ctx.lineWidth = 1;
-                ctx.fillStyle = 'Black'
-                ctx.font = "50px Concert One";
-                ctx.textAlign = "center";
+              
                 ctx.fillText("You Tied!!", c.width/2, c.height/2);
                 
 
@@ -67,20 +64,14 @@ function play(pChoice)
             else if(cChoice === 1)
             {
                 //display a loss
-                ctx.lineWidth = 1;
-                ctx.fillStyle = 'Black'
-                ctx.font = "50px Concert One";
-                ctx.textAlign = "center";
+            
                 ctx.fillText("You Lost!!", c.width/2, c.height/2);
                 
             }
             else
             {
                 //display a win
-                ctx.lineWidth = 1;
-                ctx.fillStyle = 'Black'
-                ctx.font = "50px Concert One";
-                ctx.textAlign = "center";
+                
                 ctx.fillText("You Won!!", c.width/2, c.height/2);
                 
             }
@@ -90,28 +81,19 @@ function play(pChoice)
                 if(cChoice === 0)
                 {
                     //display a tie
-                    ctx.lineWidth = 1;
-                    ctx.fillStyle = 'Black'
-                    ctx.font = "50px Concert One";
-                    ctx.textAlign = "center";
+                  
                     ctx.fillText("You Won!!", c.width/2, c.height/2);
                 }
                 else if(cChoice === 1)
                 {
                     //display a loss
-                    ctx.lineWidth = 1;
-                    ctx.fillStyle = 'Black'
-                    ctx.font = "50px Concert One";
-                    ctx.textAlign = "center";
+                   
                     ctx.fillText("You Tied!!", c.width/2, c.height/2);
                 }
                 else
                 {
                     //display a win
-                    ctx.lineWidth = 1;
-                    ctx.fillStyle = 'Black'
-                    ctx.font = "50px Concert One";
-                    ctx.textAlign = "center";
+                 
                     ctx.fillText("You Lost!!", c.width/2, c.height/2);
                 } 
             break;
@@ -120,28 +102,19 @@ function play(pChoice)
                 if(cChoice === 0)
                 {
                     //display a tie
-                    ctx.lineWidth = 1;
-                    ctx.fillStyle = 'Black'
-                    ctx.font = "50px Concert One";
-                    ctx.textAlign = "center";
+                  
                     ctx.fillText("You Lost!!", c.width/2, c.height/2);
                 }
                 else if(cChoice === 1)
                 {
                     //display a loss
-                    ctx.lineWidth = 1;
-                    ctx.fillStyle = 'Black'
-                    ctx.font = "50px Concert One";
-                    ctx.textAlign = "center";
+                    
                     ctx.fillText("You Won!!", c.width/2, c.height/2);
                 }
                 else
                 {
                     //display a win
-                    ctx.lineWidth = 1;
-                    ctx.fillStyle = 'Black'
-                    ctx.font = "50px Concert One";
-                    ctx.textAlign = "center";
+                 
                     ctx.fillText("You Tied!!", c.width/2, c.height/2);
                 }
              break;
