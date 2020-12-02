@@ -1,0 +1,100 @@
+
+
+#Home{
+    width: 1000px;
+    padding: 10px;
+    border: 4px solid black;
+    background-color: yellow;
+    height: 800px;
+    background-image: url(images/Monkey.png);
+    
+}
+
+#title{
+    color: black;
+    width: 700px;
+    height: 60px;
+    padding: 10px;
+    font-family: 'Nerko One', cursive;
+    line-height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 70px;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+
+}
+
+#play{
+    width: 250px;
+    height: 50px;
+    color: black;
+    background-color: lightyellow;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 50px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-radius: 40px;
+    font-family: 'Nerko One', cursive;
+    font-size: 40px;
+    
+}
+#play:hover{
+    background-color: lightslategrey;
+}
+
+
+/*rps game code*/
+
+html, body{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/B2.jpg)
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+#container{
+    width:1001px;
+    border: 1px solid black;
+    padding:7px;
+    background-color: yellow;
+}
+
+canvas{
+    border: 1px solid white;
+    
+}
+
+a:link, a:hover{
+    background-color: lightyellow;
+    border-radius: 40px;
+    padding:10px;
+    margin: 20px;
+    text-decoration: none;
+    color:blue;
+    font-family: 'Nerko One', cursive;
+}
+
+a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+/*#rps-score {
+    box-sizing: border-box;
+    max-width: 600px;
+    background: yellow;
+    color:black;
+    padding: 10px;
+  }*/
