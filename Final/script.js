@@ -11,13 +11,13 @@ var currentState = 0;
 var ship;;
 var highScore = 0;
 var mainBGImage = new Image;
-mainBGImage.src = "images/GalaxyMM.png";
+mainBGImage.src = "Images/GalaxyMM.png";
 var aSprite = new Image
-aSprite.src = "images/Meteor.png";
+aSprite.src = "Images/Meteor.png";
 var shipimg = new Image;
-shipimg.src = "images/spaceship.png"
+shipimg.src = "Images/spaceship.png"
 var endimg = new Image;
-endimg.src = "images/endimg.jpg"
+endimg.src = "Images/endimg.jpg"
 
 //on load event that listens for when the image is loaded
 mainBGImage.onload = function(){
