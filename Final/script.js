@@ -85,7 +85,7 @@ function PlayerShip(){
     this.down = false;
     this.left = false;
     this.right = false;
-    this.flamelength = 30
+    this.flamelength = 90
 
 
     this.draw = function(){
