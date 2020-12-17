@@ -28,6 +28,14 @@ aSprite.onload = function(){
     main();
 }
 
+shipimg.onload = function(){
+    main();
+}
+
+endimg.onload = function(){
+    main();
+}
+
 
 
 function randomRange(high, low){
